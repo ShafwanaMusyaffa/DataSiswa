@@ -1,64 +1,71 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<h1 align="center">Selamat datang di KelasKita! 👋</h1>
+
+![Landing Page](https://github.com/ShafwanaMusyaffa/dasis/blob/main/public/assets/dasis.png?raw=true)
+
+[![](https://img.shields.io/github/issues/ShafwanaMusyaffa/dasis?style=flat-square)](https://img.shields.io/github/issues/ShafwanaMusyaffa/dasis?style=flat-square) ![](https://img.shields.io/github/stars/ShafwanaMusyaffa/dasis?style=flat-square)
+![](https://img.shields.io/github/forks/ShafwanaMusyaffa/dasis?style=flat-square) ![](https://img.shields.io/github/license/ShafwanaMusyaffa/dasis?style=flat-square) [![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg?style=flat-square)](https://saythanks.io/to/zaidanline67%40gmail.com) [![HitCount](http://hits.dwyl.com/ShafwanaMusyaffa/https://github.com/ShafwanaMusyaffa/dasis.svg)](http://hits.dwyl.com/ShafwanaMusyaffa/https://github.com/ShafwanaMusyaffa/dasis)  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg?style=flat-square)](https://code.visualstudio.com/) [![GitHub followers](https://img.shields.io/github/followers/ShafwanaMusyaffa.svg?style=flat-square&label=Follow&maxAge=2592000)](https://github.com/zuramai?tab=followers)
 
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+	
+<img align="center" src="http://ForTheBadge.com/images/badges/built-with-love.svg"> <img align="center" src="http://ForTheBadge.com/images/badges/uses-html.svg"> <img align="center" src="http://ForTheBadge.com/images/badges/makes-people-smile.svg"> <img align="center" src="http://ForTheBadge.com/images/badges/built-by-developers.svg">
+
 </p>
 
-## About Laravel
+### 🤔 Apa itu DaSis?
+Web Management Data Siswa yang dibuat oleh saya sendiri <a href="https://github.com/ShafwanaMusyaffa"> (Shafwana) </a>. **Projek ini sebenarnya tugas sekolah saya, cuman saya berniat untuk menjadikan projek ini sebagai projek open source.**
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+### 📆 <a href="http://syauqi.js.org/">Release Date</a>
+**Release date : NA**
+> DaSis masih tahap beta test, jadi staytune aja ya gaes ya !
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+------------
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 💻 Install
 
-## Learning Laravel
+1. **Clone Repository**
+```bash
+git clone https://github.com/ShafwanaMusyaffa/dasis.git
+cd dasis
+composer install
+npm install
+copy .env.example .env
+```
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+2. **Buka ```.env``` lalu ubah baris berikut sesuai dengan databasemu yang ingin dipakai**
+```
+DB_PORT=3306
+DB_DATABASE=datasiswa
+DB_USERNAME=root
+DB_PASSWORD=
+```
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+3. **Instalasi website**
+```bash
+php artisan key:generate
+php artisan migrate
+```
 
-## Laravel Sponsors
+4. **Jalankan website**
+```bash
+php artisan serve
+```
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## 🧑 Author
 
-### Premium Partners
+👤 <a href="https://www.instagram.com/wanabeingnervous"> **Shafwana Musyaffa**</a>
+- LinkedIn : <a href="https://www.linkedin.com/in/shafwana-musyaffa/"> Shafwana Musyaffa</a>
+- Instagram : <a href="https://www.instagram.com/wanabeingnervous"> Shafwana Musyaffa</a>
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+## 🤝 Contributing
+Contributions, issues and feature requests di persilahkan.
+Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi. **Berhubung Project ini saya belum selesai, namun banyak fitur yang kalian dapat tambahkan silahkan berkontribusi yaa!**
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 📝 License
+- Copyright © 2022 Shafwana Musyaffa.
+- **KelasKita is open-sourced software licensed under the MIT license.**
 
-## Code of Conduct
+------------
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- **Made with ❤️ by Shafwana Musyaffa .**
+- DaSis is open-sourced software licensed under the MIT license.
