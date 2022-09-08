@@ -1,4 +1,4 @@
-<h1 align="center">Selamat datang di KelasKita! 👋</h1>
+<h1 align="center">Selamat datang di DataSiswa! 👋</h1>
 
 ![Landing Page](https://github.com/ShafwanaMusyaffa/dasis/blob/main/public/assets/dasis.png?raw=true)
 
