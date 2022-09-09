@@ -63,7 +63,7 @@ Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi. **Ber
 
 ## 📝 License
 - Copyright © 2022 Shafwana Musyaffa.
-- **KelasKita is open-sourced software licensed under the MIT license.**
+- **DataSiwa is open-sourced software licensed under the MIT license.**
 
 ------------
 
